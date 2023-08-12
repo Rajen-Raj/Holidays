@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+@import url(('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Open+Sans:wght@600&family=Quicksand:wght@400;500;600;700&family=Raleway:wght@400;500;600&family=Roboto:wght@100;300;500&family=Sacramento&display=swap');
+);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background: black !important;
+}
+.navbar-brand img{
+  max-width:180px;
+}
+
+.nav-item{
+  margin-right:20px;
+}
+.nav-item a{
+  color: white;
+}
+
+.nav-item a:hover{
+  /* color: orangered; */
+
+}
+.dropdown-menu{
+  background:black;
+  border: 1px solid white;
+}
+
+.dropdown-item:hover{
+  /* color: black !important; */
+}
+
+.carousel-item img{
+  width: 100%;
+  max-height: 90vh;
+  min-height: 50vh;
+}
+
+.about-text{
+
+   /* border: 2px solid red;  */
+}
+
+.about-text h4{
+  font-weight: 700;
+  font-family:cursive;
+  font-size:2rem;
+  color: rgb(179, 70, 30);
+}
+
+.destination h5, .destination p{
+
+}
+.destination p, .price p{
+  font-size: 12px;
+  color: grey;
+}
+
+.icon-holder{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  
+  line-height:120px;
+}
+.choose-text h6{
+color: rgb(179, 70, 30);
+  ;
+}
+.icon-holder1{
+  background: #4e76b1;
+}
+
+.icon-holder2{
+  background:#f1a75e;
+}
+
+.icon-holder3{
+  background:#23a8ae;
+}
+.icon-holder4{
+  background:#e395d7;
+}
+
+
+
+.icon-holder .fa{
+  font-size: 40px;
+  color: white;
+}
+ 
+
+.first p{
+  font-size:14px;
+}
+/* .choose-text{
+  border: 2px solid black;
+} */
+
+.card{
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover{
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+.footer-section{
+  background:#f2f3f5;
+}
+#footer{
+  background:#f2f3f5;
+}
+.footer-start li{
+list-style-type: none;
+}
+.footer-start li a{
+  text-decoration: none;
+  font-size:15px;
+}
+.footer-start li a:hover{
+  text-decoration: underline;
+}
+
+
+.footer-icon li{
+  display: inline-block;
+}
+.footer-icon .fa{
+  font-size:28px;
+}
+
+.footer-icon .fa-instagram{
+  color: orangered;
+  transition: transform 0.2s ease;
+}
+
+.footer-icon .fa:hover{
+  transform: translate(0px, -10px);
+  
+}
+
+.gall-2 img{
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+.gall-2 img:hover{
+transform:;
+}
+
+
+.footer-icon l{
+  font-size:50px;
+}
+
+.cont-icon .fa{
+  font-size:20px;
+  color: rgb(179, 70, 30);
+}
+.cont-icon .fa-mobile{
+  font-size: 25px;
+}

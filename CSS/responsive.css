@@ -1,0 +1,94 @@
+
+
+      /* // Small devices (landscape phones, 576px and up)*/
+
+@media (max-width: 576px) {
+    .navbar-brand img{
+        width: 120px;
+    }
+
+    .about-text h4{
+font-size:22px;
+    } 
+    .about-text p{
+      font-size:16px;
+          }
+
+  .footer-start h5{
+    font-size:20px;
+  }
+
+ .footer-start li a{
+    font-size:14px;
+  }
+  .footer-start li p{
+    display: inline-block;
+    font-size:12px;
+  }
+
+
+  .footer-icon h5{
+font-size:20px;
+  } 
+
+
+
+  } 
+
+/* // Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    .gall-2 figure{
+        /* border: 2px solid black; */
+        max-width:auto;
+        height:350px;
+        text-align: center;
+      }
+      .gall-2 img{
+     width: 100% !important;
+        height: 100% !important; */
+    
+      }
+   
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+ /* @media (min-width: 992px) { 
+    .gall-2 figure{
+        /* border: 2px solid black;
+        max-width:auto;
+        height:350px;
+        text-align: center;
+      }
+      .gall-2 img{
+     width: 100% !important;
+        height: 100% !important; */
+      /* }
+      
+      .dentination h5{
+        font-size: 10px;
+      }
+
+ } * */
+
+ @media (max-width: 992px){ 
+    .destination h5,
+    .price h5{
+      font-size: 16px;
+      padding-right: 10px;
+    }
+    
+    .destination p,
+    .price p{
+  font-size: 10px;
+}
+
+  
+}
+
+/* // X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) 
+@media (min-width: 1400px) { ... }*/
